@@ -1,0 +1,30 @@
+.qwery-extra-addon-team .sc_team_item_thumb {
+  position: relative;
+}
+.qwery-extra-addon-team .sc_team_item_thumb .sc_team_item_thumb_hover {
+  cursor: pointer;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 99;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  background-color: var(--theme-color-text_link2);
+}
+.qwery-extra-addon-team .sc_team_item_thumb .sc_team_item_thumb_hover a {
+  color: white;
+}
+.qwery-extra-addon-team .sc_team_item_thumb:hover .sc_team_item_thumb_hover {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+/*# sourceMappingURL=qwery.css.map */
